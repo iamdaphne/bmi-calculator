@@ -1,0 +1,163 @@
+.content {
+    background-color: #dcecf0;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.custom-h1 {
+    color: #0050a0;
+    font-size: 1.8rem;
+}
+
+.custom-h2 {
+    font-size: 1.2rem;
+}
+
+.card {
+    background-color: #fefefe;
+}
+
+.card-title,
+.card-subtitle {
+    text-align: center;
+}
+
+.card-width {
+    width: 32rem;
+}
+
+/*Input*/
+/* Remove spin button*/
+/* Chrome, Safari, Opera, Edge*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+/* Range */
+.custom-range {
+    width: 100%;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* Track Styles */
+/* Chrome, Safari, Opera, Edge*/
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #6c757d;
+    height: 0.5rem;
+    border-radius: 4px;
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-track {
+    background: #6c757d;
+    height: 0.5rem;
+    border-radius: 4px;
+}
+
+/* Thumb Styles */
+/* Chrome, Safari, Opera, Edge*/
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -6px;
+    background-color: #0050a0;
+    border: 1px solid #0050a0;
+    height: 1.2rem;
+    width: 3rem;
+}
+
+/* Firefox */
+input[type="range"]::-moz-range-thumb {
+    appearance: none;
+    margin-top: -6px;
+    background-color: #0050a0;
+    border: 1px solid #0050a0;
+    height: 1.2rem;
+    width: 3rem;
+}
+
+.custom-button {
+    background-color: #0050a0;
+    border: 1px solid #0050a0;
+}
+
+.custom-button:hover {
+    background-color: #003d7a;
+    border: 1px solid #003d7a;
+}
+
+.custom-input {
+    border: 0px;
+    font-size: 1.8rem;
+    padding: 0;
+}
+
+#form-bmi .form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+}
+
+#intro-value-bmi {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 22%;
+}
+
+#value-bmi {
+    font-size: 2rem;
+    font-weight: 600;
+    vertical-align: middle;
+    width: 35%;
+}
+
+#explanation-bmi {
+    font-weight: 300;
+}
+
+.custom-label {
+    font-weight: 500;
+}
+
+.custom-card {
+    border-bottom: 4px solid #0050a0;
+}
+
+/*Accordion*/
+.accordion-header button {
+    color: #000;
+}
+
+.custom-accordion-button {
+    font-weight: 600;
+}
+
+.custom-focus {
+    font-size: 1.1rem;
+    font-weight: 500;
+    background: #eee !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: #000;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    outline: none !important;
+    /* Entfernt die Fokusumrandung */
+}
